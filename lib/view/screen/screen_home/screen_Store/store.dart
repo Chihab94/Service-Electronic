@@ -40,7 +40,6 @@ class MyStore extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    MainService myService = Get.find();
     final h = MediaQuery.of(context).size.height;
     final w = MediaQuery.of(context).size.width;
 
